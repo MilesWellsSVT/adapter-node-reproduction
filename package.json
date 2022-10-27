@@ -1,0 +1,18 @@
+{
+	"name": "esbuild-node-reproduction",
+	"version": "0.0.1",
+	"private": true,
+	"scripts": {
+		"dev": "vite dev",
+		"build": "vite build",
+		"preview": "vite preview"
+	},
+	"devDependencies": {
+		"@azure/msal-node-extensions": "1.0.0-alpha.25",
+		"@sveltejs/adapter-node": "next",
+		"@sveltejs/kit": "next",
+		"svelte": "^3.44.0",
+		"vite": "^3.1.0"
+	},
+	"type": "module"
+}
